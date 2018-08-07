@@ -42,7 +42,7 @@ font-weight: 300;
   }
 
 .videos_a {
-	margin-top: 20px;
+	margin-top: 5em;
 	display: flex;
 	flex-wrap: wrap;
 	overflow: auto;
@@ -74,6 +74,7 @@ img{
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom center;
+	cursor: pointer;
 }
 
 .active{
@@ -94,6 +95,9 @@ img{
   	margin-left: auto;
   	margin-right: auto;
   	margin-top: 40px;
+}
+
+.video {
 }
 
 @media screen and (max-width: 700px) {
