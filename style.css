@@ -1,0 +1,109 @@
+ @import url("https://use.typekit.net/rui0sat.css");
+
+body {
+    background-color: black;
+    margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.header {
+	margin-top: 60px;
+}
+
+
+.noright {
+	margin-right: 0;
+}
+
+
+h1 {
+font-family: museo-sans, sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-size: 46px;
+	color: white;
+  	text-align: center;
+  	margin-bottom: 0px;
+/*  	text-decoration: none;*/
+
+  }
+
+  h2 {
+	font-family: museo-sans, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+  	text-align: center;
+  	margin-bottom: 10px;
+  	text-decoration: none;
+
+  }
+
+.videos_a {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+
+.chunk {
+	flex: 1;
+	min-width: 33%;
+	height: 300px;
+	margin: 0 5px 40px 0;
+	position: relative;
+}
+
+.grid{
+	width: 100%;
+}
+
+img{
+	width: 100%;
+}
+
+.stack{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	display: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+}
+
+.active{
+	display: block;
+}
+
+.noright {
+	margin-right: 0;
+}
+
+.header {
+    text-decoration: none;
+}
+
+.homegif {
+	max-width: 33%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .chunk {
+    min-width: 48.5%; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .chunk {
+    min-width: 100%;
+  }
+}
